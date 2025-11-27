@@ -2,9 +2,9 @@ import sys
 
 if len(sys.argv)==4:
   script_name = sys.argv[0]
-  principal = sys.argv[1]
-  rate = sys.argv[2]
-  time = sys.argv[3]
+  principal = float(sys.argv[1])
+  rate =  float(sys.argv[2])
+  time = float(sys.argv[3])
 
 else:
   principal=1000.0
